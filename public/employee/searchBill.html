@@ -32,11 +32,14 @@
 
     <body>
         <h3>Insert username to check bills and balance</h3>
-        <form action="/action_page.php">
-            User: <input type="text" name="balance" value=""><br>
-            <input type="submit" value="Submit">
+        <form action="http://localhost:3000/employee/searchbill" method="get">
+            User: <input type="text" name="username"/><br>
+            <input class="btn btn-primary" type="submit" value="Search"/>
         </form>
     </body>
-</body>
+    <table>
 
+    </table>
+</body>
+<script src="buildTable.js"></script>
 </html>
